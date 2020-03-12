@@ -3127,8 +3127,6 @@ input, select, textarea {
 			}
 
 			.image.main {
-				background-image: url(images/small.ipg);
-				width: 100%
 				height: 20em;
 
 			}

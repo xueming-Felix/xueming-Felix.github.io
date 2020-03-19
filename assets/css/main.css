@@ -3330,7 +3330,7 @@ input, select, textarea {
   position: relative;
   display: table;
   height: 100%;
-  margin-left: auto;
+  margin-left: 0;
   margin-right: auto;
   margin-top: 5rem;
 }
@@ -3348,7 +3348,7 @@ input, select, textarea {
   position: -webkit-sticky;
   position: sticky;
   top: 5rem;
-  color: #888;
+  color: #00274C;
   margin: 0;
   font-size: 1em;
   font-weight: 400;
@@ -3372,30 +3372,32 @@ input, select, textarea {
 }
 #timeline section.year section h4 {
   position: absolute;
-  bottom: 0;
+  top: 0;
   font-size: .9em;
   font-weight: 400;
   line-height: 1.2em;
   margin: 0;
   padding: 0 0 0 89px;
-  color: #C5C5C5;
+  color: #00274C;
 }
-@media (min-width: 62em) {
-  #timeline section.year section h4 {
-    font-size: 1em;
-  }
-}
+
 #timeline section.year section ul {
   list-style-type: none;
-  padding: 0 0 0 75px;
+  padding: 1.2em 0 0 89px;
   margin: -1.35rem 0 1em;
-  max-width: 32rem;
   font-size: 1em;
 }
+#timeline section.year section ul.research {
+  color: #00274C;
+}
+#timeline section.year section ul.research li{
+  color: #f3a536;
+  font-size: 0.8em;
+}
+
 @media (min-width: 62em) {
   #timeline section.year section ul {
-    font-size: 1.1em;
-    padding: 0 0 0 81px;
+    padding: 1.2em 0 0 89px;
   }
 }
 #timeline section.year section ul:last-child {
@@ -3416,7 +3418,12 @@ input, select, textarea {
   top: 3px;
   z-index: 2;
 }
+#timeline section.year section ul b {
+	font-size: .9em;
+}
 #timeline section.year section ul li {
+	font-size: .9em;
+	line-height: 1.2;
   margin-left: .5rem;
 }
 #timeline section.year section ul li:before {
@@ -3430,17 +3437,4 @@ input, select, textarea {
 #timeline section.year section ul li span.price {
   color: mediumturquoise;
   font-weight: 500;
-}
-
-#btcwidget {
-  display: inline;
-}
-#btcwidget img {
-  display: none;
-}
-
-svg {
-  border: 3px solid white;
-  border-radius: 50%;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }

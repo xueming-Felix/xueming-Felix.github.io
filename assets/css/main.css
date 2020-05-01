@@ -147,7 +147,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		line-height: 1.5em;
 	}
 
@@ -3322,7 +3322,11 @@ input, select, textarea {
 
 	}
 
-
+p.black_about {
+	font-size: 18px;
+	font-weight: 250;
+	color:black;
+}
 
 
 

@@ -2693,15 +2693,16 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #00274C;
 		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 24em;
 		left: 0;
+		background-image: url("../../images/background.jpeg");
+		background-attachment: fixed;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2884,6 +2885,7 @@ input, select, textarea {
 
 			#header {
 				width: 21em;
+				background-size: 30% 96%;
 			}
 
 				#header > header {
@@ -2906,6 +2908,7 @@ input, select, textarea {
 				padding: 4em 0 2em 0;
 			}
 
+
 	}
 
 /* Large */
@@ -2922,6 +2925,7 @@ input, select, textarea {
 
 			#header {
 				width: 20em;
+				background-size: 25% 96%;
 			}
 
 		/* Wrapper */
@@ -2987,6 +2991,7 @@ input, select, textarea {
 				-ms-transform: translateX(-23em);
 				transform: translateX(-23em);
 				left: 0;
+				background-size: 45% 96%;
 			}
 
 				#header > footer {
@@ -3183,6 +3188,7 @@ input, select, textarea {
 				-ms-transform: translateX(-17em);
 				transform: translateX(-17em);
 				left: 0;
+				background-size: 60% 100%;
 			}
 
 				#header > header {
@@ -3254,6 +3260,12 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
+
+
+		/* Header */
+			#header {
+				background-size: 60% 100%;
+			}
 
 		/* Basic */
 

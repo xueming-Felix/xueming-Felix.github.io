@@ -2701,10 +2701,10 @@ input, select, textarea {
 		top: 0;
 		width: 24em;
 		left: 0;
-		background-attachment: scroll,								scroll;
-		background-position: center right,							center right;
+		background-attachment: scroll;
+		background-position: center right;
 		background-repeat: repeat-y;
-		background-size: auto,								150%;
+		background-size: auto;
 		background-image: url("../../images/background.jpeg");
 	}
 
@@ -2888,7 +2888,6 @@ input, select, textarea {
 
 			#header {
 				width: 21em;
-				background-size: 30% 96%;
 			}
 
 				#header > header {
@@ -2928,7 +2927,6 @@ input, select, textarea {
 
 			#header {
 				width: 20em;
-				background-size: 25% 96%;
 			}
 
 		/* Wrapper */
@@ -2994,7 +2992,6 @@ input, select, textarea {
 				-ms-transform: translateX(-23em);
 				transform: translateX(-23em);
 				left: 0;
-				background-size: 45% 96%;
 			}
 
 				#header > footer {
@@ -3191,7 +3188,6 @@ input, select, textarea {
 				-ms-transform: translateX(-17em);
 				transform: translateX(-17em);
 				left: 0;
-				background-size: 60% 100%;
 			}
 
 				#header > header {

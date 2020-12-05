@@ -2682,6 +2682,7 @@ input, select, textarea {
 
 	#header {
 
+
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2700,14 +2701,13 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/background.jpg");
+		background-image: url("images/overlay.png"), url("../../images/background.jpeg");
 		background-position: center right,							center right;
 		background-repeat: repeat-y;
 		background-size: auto,								150%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
 		position: fixed;
 		text-align: center;
 		top: 0;

@@ -2703,7 +2703,7 @@ input, select, textarea {
 		left: 0;
 		background-attachment: scroll,								scroll;
 		background-position: center right,							center right;
-		background-repeat: repeat,								no-repeat;
+		background-repeat: repeat-y;
 		background-size: auto,								150%;
 		background-image: url("../../images/background.jpeg");
 	}

@@ -2693,16 +2693,19 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		color: #ffffff;
+		background: #eee;
+		background-attachment: scroll;
+		background-position: top left;
+		background-repeat: repeat-y;
+		background-image: /*url("images/overlay.png"), */url("../../images/background.jpg"); /*Photo by Mads Schmidt Rasmussen on Unsplash*/
+		color: #222;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 24em;
+		width: 23em;
 		left: 0;
-		background-image: url("../../images/background.jpeg");
-		background-attachment: fixed;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {

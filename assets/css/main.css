@@ -2693,12 +2693,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #eee;
-		background-attachment: scroll;
-		background-position: top left;
-		background-repeat: repeat-y;
-		background-image: /*url("images/overlay.png"), */url("../../images/background.jpg"); /*Photo by Mads Schmidt Rasmussen on Unsplash*/
-		color: #222;
+		color: #ffffff;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
@@ -2706,6 +2701,10 @@ input, select, textarea {
 		top: 0;
 		width: 23em;
 		left: 0;
+		background-image: url("../../images/background.jpeg");
+		background-attachment: scroll;
+		background-position: top left;
+		background-repeat: repeat-y;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {

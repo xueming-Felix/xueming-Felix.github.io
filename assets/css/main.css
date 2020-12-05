@@ -2681,8 +2681,6 @@ input, select, textarea {
 /* Header */
 
 	#header {
-
-
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2691,10 +2689,6 @@ input, select, textarea {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-/*		-moz-align-items: -moz-flex-end;
-		-webkit-align-items: -webkit-flex-end;
-		-ms-align-items: -ms-flex-end;
-		align-items: flex-end;*/
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;

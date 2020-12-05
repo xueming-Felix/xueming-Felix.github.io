@@ -2689,23 +2689,28 @@ input, select, textarea {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
+		-moz-align-items: -moz-flex-end;
+		-webkit-align-items: -webkit-flex-end;
+		-ms-align-items: -ms-flex-end;
+		align-items: flex-end;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		color: #ffffff;
-		background-attachment: scroll;
-		background-position: top left;
+		background-color: #1f1815;
+		background-attachment: scroll,								scroll;
+		background-image: url("images/overlay.png"), url("../../images/background.jpeg");
+		background-position: center right,							center right;
 		background-repeat: repeat-y;
-		background-image: /*url("images/overlay.png"), */url("../../images/background.jpeg"); /*Photo by Mads Schmidt Rasmussen on Unsplash*/
-		color: #222;
+		background-size: auto,								150%;
+		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
-		overflow-y: auto;
+		left: 0;
+		padding: 8em 4em;
 		position: fixed;
 		text-align: center;
 		top: 0;
 		width: 23em;
-		left: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {

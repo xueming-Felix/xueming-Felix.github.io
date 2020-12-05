@@ -117,11 +117,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #339cff !important;
+			color: #00274C !important;
 		}
 
 	strong, b {
-		color: #222;
+		color: #00274C;
 		font-weight: 700;
 	}
 
@@ -134,7 +134,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #222;
+		color: #00274C;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #222;
+		color: #00274C;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #222;
+			border-color: #00274C;
 		}
 
 	select {
@@ -1949,7 +1949,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #222;
+			border-color: #00274C;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2395,7 +2395,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #222;
+				background: #00274C;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2511,14 +2511,14 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #333333ff;
+		background-color: #989898;
 		border-radius: 5px;
-		border: solid 3px #efefef00;
-		color: #ffffff;
+		border: 0;
+		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 500;
-		height: 2.95em;
+		font-weight: 700;
+		height: 2.75em;
 		line-height: 2.75em;
 		padding: 0 1.5em;
 		text-align: center;
@@ -2530,23 +2530,15 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			color: #339cff;
-			-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-			border-color: #339cff;
-			color: #339cff;
-			/*color: #339cff !important;*/
+			background-color: #a5a5a5;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #339cff00;
-			border-color: #339cff;
-			/*color: #339cff !important;*/
+			background-color: #8b8b8b;
 		}
 
 		input[type="submit"].icon,
@@ -2619,7 +2611,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #222;
+			background-color: #00274C;
 			color: #ffffff !important;
 		}
 
@@ -2701,39 +2693,39 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #eee;
-		background-attachment: scroll;
-		background-position: top left;
+		background-color: #1f1815;
+		background-attachment: scroll,								scroll;
+		background-image: url("images/overlay.png"), url("../../images/background.jpeg");
+		background-position: center right,							center right;
 		background-repeat: repeat-y;
-		background-image: /*url("images/overlay.png"), */url("../../images/background.jpeg"); /*Photo by Mads Schmidt Rasmussen on Unsplash*/
-		color: #222;
+		background-size: auto,								150%;
+		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
-		overflow-y: auto;
+		left: 0;
 		position: fixed;
 		text-align: center;
 		top: 0;
 		width: 23em;
-		left: 0;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #222;
+			color: #ffffff;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #222;
+				color: #ffffff;
 			}
 
 		#header header p {
-			color: #222;
+			color: #ffffff;
 		}
 
 		#header a {
-			color: #222;
+			color: #ffffff;
 		}
 
 			#header a:hover {
-				color: #339cff !important;
+				color: #ffffff !important;
 			}
 
 		#header > header {
@@ -2756,7 +2748,7 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #222;
+				color: #ffffff;
 				font-style: italic;
 				margin: 1em 0 0 0;
 			}
@@ -2777,7 +2769,7 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #222;
+					color: #ffffff;
 				}
 
 		#header > nav {
@@ -2794,7 +2786,7 @@ input, select, textarea {
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #00000000;
+					border-top: solid 2px #00274C;
 					display: block;
 					padding: 0;
 				}
@@ -2805,15 +2797,15 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #222 !important;
+						color: #ffffff !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
 						#header > nav ul li a.active {
-							background: #00000055;
-							color: #222 !important;
+							background: #fff;
+							color: #00274C !important;
 							font-weight: bold;
 						}
 
@@ -2917,6 +2909,7 @@ input, select, textarea {
 			#main > section > .container {
 				padding: 4em 0 2em 0;
 			}
+
 
 	}
 
@@ -3088,7 +3081,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #222;
+						background: #00274C;
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
@@ -3267,6 +3260,12 @@ input, select, textarea {
 
 	@media screen and (max-width: 480px) {
 
+
+		/* Header */
+			#header {
+				background-size: 100% 100%;
+			}
+
 		/* Basic */
 
 			html, body {
@@ -3341,124 +3340,116 @@ p.black_about {
 }
 
 
+
 #timeline {
-	position: relative;
-	display: table;
-	height: 100%;
-	margin-left: 0;
-	margin-right: auto;
-	margin-top: 5rem;
-  }
-  #timeline div:after {
-	content: '';
-	width: 2px;
-	position: absolute;
-	top: .5rem;
-	bottom: 0rem;
-	left: 60px;
-	z-index: 1;
-	background: #0086b3;
-  }
+  position: relative;
+  display: table;
+  height: 100%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 5rem;
+}
+#timeline div:after {
+  content: '';
+  width: 2px;
+  position: absolute;
+  top: .5rem;
+  bottom: 0rem;
+  left: 60px;
+  z-index: 1;
+  background: #C5C5C5;
+}
+#timeline h3 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem;
+  color: #00274C;
+  margin: 0;
+  font-size: 1em;
+  font-weight: 400;
+}
+@media (min-width: 62em) {
   #timeline h3 {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 5rem;
-	color: #0086b3;
-	margin: 0;
-	font-size: 1em;
-	font-weight: 400;
+    font-size: 1.1em;
   }
-  @media (min-width: 62em) {
-	#timeline h3 {
-	  font-size: 1.1em;
-	}
-  }
-  #timeline section.year {
-	position: relative;
-  }
-  #timeline section.year:first-child section {
-	margin-top: -1.3em;
-	padding-bottom: 0px;
-  }
-  #timeline section.year section {
-	position: relative;
-	padding-bottom: 1.25em;
-	margin-bottom: 2.2em;
-  }
-  #timeline section.year section h4 {
-	position: absolute;
-	top: 0;
-	font-size: .9em;
-	font-weight: 400;
-	line-height: 1.2em;
-	margin: 0;
-	padding: 0 0 0 89px;
-	color: #0086b3;
-  }
-  
+}
+#timeline section.year {
+  position: relative;
+}
+#timeline section.year:first-child section {
+  margin-top: -1.3em;
+  padding-bottom: 0px;
+}
+#timeline section.year section {
+  position: relative;
+  padding-bottom: 1.25em;
+  margin-bottom: 2.2em;
+}
+#timeline section.year section h4 {
+  position: absolute;
+  top: 0;
+  font-size: .9em;
+  font-weight: 400;
+  line-height: 1.2em;
+  margin: 0;
+  padding: 0 0 0 89px;
+  color: #00274C;
+}
+
+#timeline section.year section ul {
+  list-style-type: none;
+  padding: 1.2em 0 0 89px;
+  margin: -1.35rem 0 1em;
+  font-size: 1em;
+}
+#timeline section.year section ul.research {
+  color: #00274C;
+}
+#timeline section.year section ul.research li{
+  color: #f3a536;
+  font-size: 0.8em;
+}
+
+@media (min-width: 62em) {
   #timeline section.year section ul {
-	list-style-type: none;
-	padding: 1.2em 0 0 89px;
-	margin: -1.35rem 0 1em;
-	font-size: 1em;
+    padding: 1.2em 0 0 89px;
   }
-  #timeline section.year section ul.tutor {
-	color: #117A65;
-  }
-  #timeline section.year section ul.research {
-	color: #2E4053;
-  }
-  #timeline section.year section ul.admin {
-	  color: #5B2C6F;
-  }
-  
-  @media (min-width: 62em) {
-	#timeline section.year section ul {
-	  padding: 1.2em 0 0 89px;
-	}
-  }
-  #timeline section.year section ul:last-child {
-	margin-bottom: 0;
-  }
-  #timeline section.year section ul:first-of-type:after {
-	content: '';
-	width: 10px;
-	height: 10px;
-	background: #ffffff;
-	border: 2px solid #0086b3;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	border-radius: 50%;
-	position: absolute;
-	left: 56px;
-	top: 3px;
-	z-index: 2;
-  }
-  #timeline section.year section ul b {
-	  font-size: .9em;
-  }
-  #timeline section.year section ul li {
-	  font-size: .9em;
-	  line-height: 1.2;
-	margin-left: .5rem;
-  }
-  #timeline section.year section ul li:before {
-	content: '·';
-	margin-left: -.5rem;
-	padding-right: .3rem;
-  }
-  #timeline section.year section ul li:not(:first-child) {
-	margin-top: .4rem;
-  }
-  #timeline section.year section ul li span.price {
-	color: mediumturquoise;
-	font-weight: 500;
-  }
-  
-  .sec {
-	  color: #222;
-	  font-size: 28pt;
-	  /*font-weight: bold;*/
-	  font-family: Verdana, Geneva, sans-serif;
-  }
+}
+#timeline section.year section ul:last-child {
+  margin-bottom: 0;
+}
+#timeline section.year section ul:first-of-type:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background: #C5C5C5;
+  border: 2px solid #FFFFFF;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  position: absolute;
+  left: 54px;
+  top: 3px;
+  z-index: 2;
+}
+#timeline section.year section ul b {
+	font-size: .9em;
+}
+#timeline section.year section ul li {
+	font-size: .9em;
+	line-height: 1.2;
+  margin-left: .5rem;
+}
+#timeline section.year section ul li:before {
+  content: '·';
+  margin-left: -.5rem;
+  padding-right: .3rem;
+}
+#timeline section.year section ul li:not(:first-child) {
+  margin-top: .4rem;
+}
+#timeline section.year section ul li span.price {
+  color: mediumturquoise;
+  font-weight: 500;
+}

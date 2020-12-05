@@ -2699,12 +2699,9 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 24em;
 		left: 0;
 		background-image: url("../../images/background.jpeg");
-		background-attachment: scroll;
-		background-position: top left;
-		background-repeat: repeat-y;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {

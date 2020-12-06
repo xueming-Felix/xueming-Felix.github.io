@@ -2796,7 +2796,7 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color:#222 !important;
+						color: #00000055 !important;
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
@@ -2804,7 +2804,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #00000055;
-							color: #222 !important;
+							color: #00274C !important;
 							font-weight: bold;
 						}
 

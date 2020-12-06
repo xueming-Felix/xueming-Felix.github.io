@@ -84,10 +84,10 @@
 
 			breakpoints.on('>medium', function() {
 
-				$header.css('background-position', 'left 0px');
+				$header.css('background-position', 'right 0px');
 
 				$window.on('scroll.strata_parallax', function() {
-					$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+					$header.css('background-position', 'right ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
 				});
 
 			});

@@ -292,6 +292,17 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
+				AOS.init({
+					// detect reduce motion here to stop AOS
+					disable: function () {
+						const query = '(prefers-reduced-motion: reduce)';
+						const hasOSReducedMotion = window.matchMedia(query).matches;
+						if(hasOSReducedMotion) return true;
+					}
+				});
+			</script>
 
 	</body>
 </html>

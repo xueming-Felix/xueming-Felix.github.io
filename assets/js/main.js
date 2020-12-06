@@ -11,7 +11,17 @@
 		$header = $('#header'),
 		$titleBar = null,
 		$nav = $('#nav'),
-		$wrapper = $('#wrapper');
+		$wrapper = $('#wrapper'),
+		settings = {
+
+			// Parallax background effect?
+				parallax: true,
+
+			// Parallax factor (lower = more intense, higher = less intense).
+				parallaxFactor: 20
+
+		};
+
 
 	// Breakpoints.
 		breakpoints({
@@ -55,6 +65,38 @@
 			}
 
 	// Header Panel.
+		// header.
+		// Parallax background.
+
+		// Disable parallax on IE (smooth scrolling is jerky), and on mobile platforms (= better performance).
+		if (browser.name == 'ie'
+			||	browser.mobile)
+				settings.parallax = false;
+
+		if (settings.parallax) {
+
+			breakpoints.on('<=medium', function() {
+
+				$window.off('scroll.strata_parallax');
+				$header.css('background-position', '');
+
+			});
+
+			breakpoints.on('>medium', function() {
+
+				$header.css('background-position', 'left 0px');
+
+				$window.on('scroll.strata_parallax', function() {
+					$header.css('background-position', 'left ' + (-1 * (parseInt($window.scrollTop()) / settings.parallaxFactor)) + 'px');
+				});
+
+			});
+
+			$window.on('load', function() {
+				$window.triggerHandler('scroll');
+			});
+
+		}
 
 		// Nav.
 			var $nav_a = $nav.find('a');

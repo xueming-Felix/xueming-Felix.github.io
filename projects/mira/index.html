@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Xueming Xu's Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="../../images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Xueming Xu</a></h1>
+					<p>Computer Science Engineering <br />
+					at University of Michigan</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Expo Video</a></li>
+						<li><a href="#three">Demo</a></li>
+						<li><a href="#four">Link Back</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/xueming-Felix/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/xueming-Felix" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto: xueming@umich.edu" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<!-- One -->
+						<section id="one">
+        					<div class="container">
+        						<header class="major">
+							        <h2>Mira Camera</h2>
+							        
+							        <h5> Project during internship at Mira Video (Jun. - Aug. 2021)</h5>
+							        <br>
+							        <p class="black_about">
+							        	This project offers an intelligent cloud solution for offline meeting recording. Originally, for offline meeting, there is a common solution, which is a global camera recording the whole scene. For example, lecture recording is such type recording. However, what if there are multiple speakers and we want to see each speaker's face when they are speaking? This project provides a solution that enables automatic clipping a video that switches between multiple streams and always focus on the active speaker. The solution achieves streaming uploading, cloud processing, speaker detection and automatic video clipping.
+							        </p>
+									<p class="black_about">
+							        	For the setup, our solution is a mobile application on the phone. During the meeting, every participant can install a phone in front of them. As the meeting starts, someone presses start button in the application. Our server will inform other nearby users to join the same session and start recording and uploading the stream to the cloud server. The videos are saved to the album and also to our storage server. Then our computing server will then 1) Download and synchronize videos with Praat 2) Extract subtitles with iFlytek 3) Slice videos based on sentence timestamps with FFmpeg 4) Detect faces with OpenCV 5) Evaluate clips with SOTA Active Speaker Detection algorithm (Pytorch) 5) Select and merge clips with audience experience constraints. Finally, the users can preview the result within the app. 
+					        		</p>
+					        		<p class="black_about">
+					        			For technical stack, the front end is implemented by Swift and Android correspondingly. The backend is implemented by Python. Tencent cloud server APIs are used to push live stream. Redis queue is used to hand out jobs to different computing servers. 
+					        		</p>
+         						</header>
+				        	</div>
+				       </section>
+
+						<section id="two">
+				       		<div class="container">
+					        	<h3>Expo Video</h3>
+					        	<div class="demo-iframe">
+						        	<iframe width="600" height="400"
+						            	src="https://www.youtube.com/embed/gSneryHJD7U">
+						        	</iframe>
+					        	</div>
+				        	</div>
+				       </section>
+
+				       <section id="three">
+				       		<div class="container">
+					        	<h3>Demo</h3>
+					        	<div class="demo-iframe">
+						        	<iframe width="600" height="400"
+						            	src="https://www.youtube.com/embed/x8m_fXoGqfA">
+						        	</iframe>
+					        	</div>
+				        	</div>
+				       </section>
+
+				     
+
+				       <section id="four">
+				       		<div class="container">
+					        	<a href="../../#three" target="_self"><h3>Link Back</h3></a>
+					        	<p><a href="../../#three" target="_self">Click here to go back to my personal website.</a></p>
+					        </div>
+				       </section>
+					</div>
+
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Xueming Xu. All rights reserved.</li><li>Credit to: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
